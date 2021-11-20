@@ -31,7 +31,7 @@ const App = () => {
 
 
   const handleApiCall = async (e) => {
-    Const url = 'http://3.144.97.32:9999'+e.target.name
+    const url = 'http://3.144.97.32:9999'+e.target.name
     console.log(url)
     displayData.url=url
     if(url){
